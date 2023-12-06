@@ -1,0 +1,230 @@
+[0.998s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.998s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd56e5b8f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd56e5a44c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd56e5a44c0>>)
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tainteli/meu_workspace_agora_vai'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[1.134s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_python' and name 'my_package'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[1.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.311s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/tainteli/meu_workspace/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.311s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/tainteli/meu_workspace/my_package/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.311s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tainteli/meu_workspace/my_package/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.311s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tainteli/meu_workspace/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.311s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tainteli/meu_workspace/install/turtlesim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.312s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tainteli/meu_workspace/install/turtlesim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tainteli/meu_workspace_agora_vai/install
+[1.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 262 installed packages in /opt/ros/humble
+[1.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.510s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tainteli/meu_workspace_agora_vai/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tainteli/meu_workspace_agora_vai/install/my_package', 'merge_install': False, 'path': '/home/tainteli/meu_workspace_agora_vai/my_package', 'symlink_install': False, 'test_result_base': None}
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.533s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tainteli/meu_workspace_agora_vai/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tainteli/meu_workspace_agora_vai/install/turtlesim', 'merge_install': False, 'path': '/home/tainteli/meu_workspace_agora_vai/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[1.555s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.582s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tainteli/meu_workspace_agora_vai/my_package' with build type 'ament_python'
+[1.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[1.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[1.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.733s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tainteli/meu_workspace_agora_vai/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.734s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tainteli/meu_workspace_agora_vai/src/ros_tutorials/turtlesim'
+[1.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.304s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tainteli/meu_workspace_agora_vai/my_package'
+[2.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble /home/tainteli/.local/bin/cmake --build /home/tainteli/meu_workspace_agora_vai/build/turtlesim -- -j8 -l8
+[2.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble /home/tainteli/.local/bin/cmake --build /home/tainteli/meu_workspace_agora_vai/build/turtlesim -- -j8 -l8
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tainteli/meu_workspace_agora_vai/my_package': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/build/my_package/install.log --single-version-externally-managed
+[3.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble /home/tainteli/.local/bin/cmake --install /home/tainteli/meu_workspace_agora_vai/build/turtlesim
+[3.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tainteli/meu_workspace_agora_vai/my_package' returned '0': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/build/my_package/install.log --single-version-externally-managed
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package' for CMake module files
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package' for CMake config files
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package/lib'
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package/bin'
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package/lib/pkgconfig/my_package.pc'
+[3.319s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package/lib/python3.10/site-packages'
+[3.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[3.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/pythonpath.ps1'
+[3.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/pythonpath.dsv'
+[3.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/hook/pythonpath.sh'
+[3.333s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/my_package/bin'
+[3.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[3.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/package.ps1'
+[3.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/package.dsv'
+[3.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/package.sh'
+[3.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/package.bash'
+[3.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/my_package/share/my_package/package.zsh'
+[3.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tainteli/meu_workspace_agora_vai/install/my_package/share/colcon-core/packages/my_package)
+[3.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble /home/tainteli/.local/bin/cmake --install /home/tainteli/meu_workspace_agora_vai/build/turtlesim
+[3.381s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim' for CMake module files
+[3.382s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim' for CMake config files
+[3.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib'
+[3.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.425s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/bin'
+[3.425s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/python3.10/site-packages'
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/bin'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.ps1'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.dsv'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.sh'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.bash'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.zsh'
+[3.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim' for CMake module files
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim' for CMake config files
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.767s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib'
+[3.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/bin'
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/python3.10/site-packages'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/bin'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.ps1'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.dsv'
+[3.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.sh'
+[3.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.bash'
+[3.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.zsh'
+[3.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.808s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.890s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.892s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.892s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.907s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tainteli/meu_workspace_agora_vai/install/local_setup.ps1'
+[3.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tainteli/meu_workspace_agora_vai/install/_local_setup_util_ps1.py'
+[3.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tainteli/meu_workspace_agora_vai/install/setup.ps1'
+[3.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tainteli/meu_workspace_agora_vai/install/local_setup.sh'
+[3.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tainteli/meu_workspace_agora_vai/install/_local_setup_util_sh.py'
+[3.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tainteli/meu_workspace_agora_vai/install/setup.sh'
+[3.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tainteli/meu_workspace_agora_vai/install/local_setup.bash'
+[3.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tainteli/meu_workspace_agora_vai/install/setup.bash'
+[3.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tainteli/meu_workspace_agora_vai/install/local_setup.zsh'
+[3.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tainteli/meu_workspace_agora_vai/install/setup.zsh'

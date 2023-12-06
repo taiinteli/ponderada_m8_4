@@ -1,0 +1,4 @@
+[console_scripts]
+chatbot = my_package.chatbot:main
+my_node = my_package.my_node:main
+

@@ -1,0 +1,20 @@
+[1.483s] Invoking command in '/home/tainteli/meu_workspace_agora_vai/src/ola_mundo': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build install --record /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log --single-version-externally-managed
+[1.756s] running egg_info
+[1.757s] writing ../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[1.758s] writing dependency_links to ../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[1.758s] writing entry points to ../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[1.761s] writing requirements to ../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[1.762s] writing top-level names to ../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[1.762s] reading manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.762s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.762s] running build
+[1.762s] running build_py
+[1.764s] running install
+[1.764s] running install_lib
+[1.766s] running install_data
+[1.768s] running install_egg_info
+[1.771s] removing '/home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.772s] Copying ../../build/ola_mundo/ola_mundo.egg-info to /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[1.773s] running install_scripts
+[1.793s] writing list of installed files to '/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log'
+[1.991s] Invoked command in '/home/tainteli/meu_workspace_agora_vai/src/ola_mundo' returned '0': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build install --record /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log --single-version-externally-managed

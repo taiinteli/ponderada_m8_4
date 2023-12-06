@@ -1,0 +1,24 @@
+[1.518s] Invoking command in '/home/tainteli/meu_workspace_agora_vai/my_package': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log --single-version-externally-managed
+[1.805s] running egg_info
+[1.807s] writing build/my_package/my_package.egg-info/PKG-INFO
+[1.807s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[1.808s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[1.808s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[1.809s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[1.814s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[1.816s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[1.816s] running build
+[1.817s] running build_py
+[1.817s] copying my_package/chatbot.py -> /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package
+[1.817s] running install
+[1.818s] running install_lib
+[1.820s] copying /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package/chatbot.py -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[1.821s] byte-compiling /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package/chatbot.py to chatbot.cpython-310.pyc
+[1.822s] running install_data
+[1.823s] running install_egg_info
+[1.827s] removing '/home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.828s] Copying build/my_package/my_package.egg-info to /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.830s] running install_scripts
+[1.890s] Installing my_node = my_package.my_node:mainchatbot script to /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/my_package
+[1.891s] writing list of installed files to '/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log'
+[1.947s] Invoked command in '/home/tainteli/meu_workspace_agora_vai/my_package' returned '0': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log --single-version-externally-managed

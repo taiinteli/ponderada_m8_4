@@ -1,0 +1,1003 @@
+[0.000000] (-) TimerEvent: {}
+[0.001978] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.003088] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.077176] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.077459] (turtlesim) Command: {'cmd': ['/home/tainteli/.local/bin/cmake', '/home/tainteli/meu_workspace_agora_vai/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/tainteli/meu_workspace_agora_vai/install/turtlesim'], 'cwd': '/home/tainteli/meu_workspace_agora_vai/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tainteli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tainteli/meu_workspace/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tainteli'), ('OLDPWD', '/home/tainteli/meu_workspace_agora_vai/src'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tainteli/meu_workspace/install:/home/tainteli/meu_workspace/my_package/install'), ('LOGNAME', 'tainteli'), ('NAME', 'Notebook-26'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/tainteli/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Inteli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Inteli/AppData/Local/Microsoft/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/WebStorm 2022.1/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Roaming/npm:/mnt/c/Users/Inteli/Downloads/sqlite/sqlite/sqlite3.exe:/snap/bin'), ('WT_SESSION', '2278beeb-f3d6-4454-a849-c88f5d04a944'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/home/tainteli/meu_workspace/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tainteli/meu_workspace_agora_vai/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tainteli/meu_workspace/my_package/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tainteli/meu_workspace/install/turtlesim:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.100011] (-) TimerEvent: {}
+[0.200491] (-) TimerEvent: {}
+[0.304429] (-) TimerEvent: {}
+[0.376773] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.404967] (-) TimerEvent: {}
+[0.505870] (-) TimerEvent: {}
+[0.606802] (-) TimerEvent: {}
+[0.707781] (-) TimerEvent: {}
+[0.808946] (-) TimerEvent: {}
+[0.910785] (-) TimerEvent: {}
+[1.011394] (-) TimerEvent: {}
+[1.112680] (-) TimerEvent: {}
+[1.213327] (-) TimerEvent: {}
+[1.252143] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.313787] (-) TimerEvent: {}
+[1.414658] (-) TimerEvent: {}
+[1.517191] (-) TimerEvent: {}
+[1.618220] (-) TimerEvent: {}
+[1.719328] (-) TimerEvent: {}
+[1.820005] (-) TimerEvent: {}
+[1.866598] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.920174] (-) TimerEvent: {}
+[2.020610] (-) TimerEvent: {}
+[2.078351] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.093502] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.093875] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.094512] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.099299] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.120813] (-) TimerEvent: {}
+[2.221312] (-) TimerEvent: {}
+[2.322585] (-) TimerEvent: {}
+[2.339390] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.350614] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.350969] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.351572] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.355233] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.423019] (-) TimerEvent: {}
+[2.528831] (-) TimerEvent: {}
+[2.637629] (-) TimerEvent: {}
+[2.746397] (-) TimerEvent: {}
+[2.855222] (-) TimerEvent: {}
+[2.964088] (-) TimerEvent: {}
+[3.072855] (-) TimerEvent: {}
+[3.181860] (-) TimerEvent: {}
+[3.282586] (-) TimerEvent: {}
+[3.385352] (-) TimerEvent: {}
+[3.494149] (-) TimerEvent: {}
+[3.602892] (-) TimerEvent: {}
+[3.711697] (-) TimerEvent: {}
+[3.820486] (-) TimerEvent: {}
+[3.921048] (-) TimerEvent: {}
+[4.021663] (-) TimerEvent: {}
+[4.122270] (-) TimerEvent: {}
+[4.222939] (-) TimerEvent: {}
+[4.323591] (-) TimerEvent: {}
+[4.424346] (-) TimerEvent: {}
+[4.531918] (-) TimerEvent: {}
+[4.640632] (-) TimerEvent: {}
+[4.741304] (-) TimerEvent: {}
+[4.841989] (-) TimerEvent: {}
+[4.942687] (-) TimerEvent: {}
+[5.043391] (-) TimerEvent: {}
+[5.149154] (-) TimerEvent: {}
+[5.257962] (-) TimerEvent: {}
+[5.359132] (-) TimerEvent: {}
+[5.461702] (-) TimerEvent: {}
+[5.570585] (-) TimerEvent: {}
+[5.671384] (-) TimerEvent: {}
+[5.772972] (-) TimerEvent: {}
+[5.874675] (-) TimerEvent: {}
+[5.975441] (-) TimerEvent: {}
+[6.076361] (-) TimerEvent: {}
+[6.177412] (-) TimerEvent: {}
+[6.278674] (-) TimerEvent: {}
+[6.380218] (-) TimerEvent: {}
+[6.481168] (-) TimerEvent: {}
+[6.582454] (-) TimerEvent: {}
+[6.683784] (-) TimerEvent: {}
+[6.785025] (-) TimerEvent: {}
+[6.886961] (-) TimerEvent: {}
+[6.988742] (-) TimerEvent: {}
+[7.091441] (-) TimerEvent: {}
+[7.195241] (-) TimerEvent: {}
+[7.297337] (-) TimerEvent: {}
+[7.398786] (-) TimerEvent: {}
+[7.500132] (-) TimerEvent: {}
+[7.601103] (-) TimerEvent: {}
+[7.702183] (-) TimerEvent: {}
+[7.803229] (-) TimerEvent: {}
+[7.885241] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.905007] (-) TimerEvent: {}
+[8.006125] (-) TimerEvent: {}
+[8.075798] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[8.078395] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.106946] (-) TimerEvent: {}
+[8.208132] (-) TimerEvent: {}
+[8.309234] (-) TimerEvent: {}
+[8.383387] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.390637] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.404023] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.409970] (-) TimerEvent: {}
+[8.424553] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.456399] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.514601] (-) TimerEvent: {}
+[8.615296] (-) TimerEvent: {}
+[8.716812] (-) TimerEvent: {}
+[8.818465] (-) TimerEvent: {}
+[8.920178] (-) TimerEvent: {}
+[9.021185] (-) TimerEvent: {}
+[9.122324] (-) TimerEvent: {}
+[9.223697] (-) TimerEvent: {}
+[9.279314] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.324314] (-) TimerEvent: {}
+[9.425609] (-) TimerEvent: {}
+[9.461100] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.471280] (turtlesim) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[9.526632] (-) TimerEvent: {}
+[9.588911] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[9.625192] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.627085] (-) TimerEvent: {}
+[9.728551] (-) TimerEvent: {}
+[9.830318] (-) TimerEvent: {}
+[9.931937] (-) TimerEvent: {}
+[10.041616] (-) TimerEvent: {}
+[10.151036] (-) TimerEvent: {}
+[10.252389] (-) TimerEvent: {}
+[10.353526] (-) TimerEvent: {}
+[10.454603] (-) TimerEvent: {}
+[10.497306] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.500993] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.555241] (-) TimerEvent: {}
+[10.657735] (-) TimerEvent: {}
+[10.707907] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[10.762009] (-) TimerEvent: {}
+[10.835302] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.851886] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[10.862975] (-) TimerEvent: {}
+[10.971691] (-) TimerEvent: {}
+[11.080462] (-) TimerEvent: {}
+[11.145256] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.180655] (-) TimerEvent: {}
+[11.285669] (-) TimerEvent: {}
+[11.345605] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.389175] (-) TimerEvent: {}
+[11.432003] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.490161] (-) TimerEvent: {}
+[11.595008] (-) TimerEvent: {}
+[11.695900] (-) TimerEvent: {}
+[11.697587] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.699286] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.804084] (-) TimerEvent: {}
+[11.904881] (-) TimerEvent: {}
+[12.009087] (-) TimerEvent: {}
+[12.117808] (-) TimerEvent: {}
+[12.220576] (-) TimerEvent: {}
+[12.329402] (-) TimerEvent: {}
+[12.430055] (-) TimerEvent: {}
+[12.454602] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.454883] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.454945] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.455021] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.476105] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.534673] (-) TimerEvent: {}
+[12.609799] (turtlesim) StdoutLine: {'line': b'-- Configuring done (12.5s)\n'}
+[12.636923] (-) TimerEvent: {}
+[12.711153] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[12.715027] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/tainteli/meu_workspace_agora_vai/build/turtlesim\n'}
+[12.737336] (turtlesim) CommandEnded: {'returncode': 0}
+[12.738055] (-) TimerEvent: {}
+[12.738757] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[12.739771] (turtlesim) Command: {'cmd': ['/home/tainteli/.local/bin/cmake', '--build', '/home/tainteli/meu_workspace_agora_vai/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/tainteli/meu_workspace_agora_vai/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tainteli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tainteli/meu_workspace/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tainteli'), ('OLDPWD', '/home/tainteli/meu_workspace_agora_vai/src'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tainteli/meu_workspace/install:/home/tainteli/meu_workspace/my_package/install'), ('LOGNAME', 'tainteli'), ('NAME', 'Notebook-26'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/tainteli/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Inteli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Inteli/AppData/Local/Microsoft/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/WebStorm 2022.1/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Roaming/npm:/mnt/c/Users/Inteli/Downloads/sqlite/sqlite/sqlite3.exe:/snap/bin'), ('WT_SESSION', '2278beeb-f3d6-4454-a849-c88f5d04a944'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/home/tainteli/meu_workspace/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tainteli/meu_workspace_agora_vai/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tainteli/meu_workspace/my_package/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tainteli/meu_workspace/install/turtlesim:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.786475] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.793281] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.794811] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[12.838909] (-) TimerEvent: {}
+[12.940020] (-) TimerEvent: {}
+[13.040568] (-) TimerEvent: {}
+[13.042906] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[13.043752] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[13.044255] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[13.044655] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[13.044920] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[13.045151] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[13.047526] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[13.048193] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[13.078213] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[13.140796] (-) TimerEvent: {}
+[13.241400] (-) TimerEvent: {}
+[13.342060] (-) TimerEvent: {}
+[13.442709] (-) TimerEvent: {}
+[13.543397] (-) TimerEvent: {}
+[13.644089] (-) TimerEvent: {}
+[13.744882] (-) TimerEvent: {}
+[13.811082] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[13.816952] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.817515] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.817712] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.845482] (-) TimerEvent: {}
+[13.927338] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[13.927733] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[13.927898] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[13.928062] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[13.930105] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[13.946096] (-) TimerEvent: {}
+[14.012772] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[14.016747] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[14.030207] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[14.046796] (-) TimerEvent: {}
+[14.147858] (-) TimerEvent: {}
+[14.191786] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[14.248673] (-) TimerEvent: {}
+[14.349852] (-) TimerEvent: {}
+[14.421407] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[14.427208] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.427619] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.427733] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.450013] (-) TimerEvent: {}
+[14.550490] (-) TimerEvent: {}
+[14.634450] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[14.634977] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[14.636431] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[14.651367] (-) TimerEvent: {}
+[14.752565] (-) TimerEvent: {}
+[14.853420] (-) TimerEvent: {}
+[14.954183] (-) TimerEvent: {}
+[15.033411] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[15.054676] (-) TimerEvent: {}
+[15.155492] (-) TimerEvent: {}
+[15.200242] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[15.208234] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[15.256112] (-) TimerEvent: {}
+[15.303406] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[15.356778] (-) TimerEvent: {}
+[15.457802] (-) TimerEvent: {}
+[15.558914] (-) TimerEvent: {}
+[15.659980] (-) TimerEvent: {}
+[15.673136] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[15.706446] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[15.760314] (-) TimerEvent: {}
+[15.814263] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[15.839528] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[15.860493] (-) TimerEvent: {}
+[15.884588] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[15.891661] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[15.930664] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[15.960795] (-) TimerEvent: {}
+[15.968302] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[15.969364] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[16.023166] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[16.039831] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[16.061203] (-) TimerEvent: {}
+[16.085746] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[16.128273] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[16.158998] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[16.162024] (-) TimerEvent: {}
+[16.169119] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[16.169465] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[16.206670] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[16.217456] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[16.251420] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.262434] (-) TimerEvent: {}
+[16.273656] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[16.338710] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[16.362941] (-) TimerEvent: {}
+[16.363897] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[16.404725] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[16.463425] (-) TimerEvent: {}
+[16.506244] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.519934] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[16.534392] (turtlesim) StdoutLine: {'line': b'[ 49%] Built target turtlesim__rosidl_typesupport_c\n'}
+[16.541805] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[16.563892] (-) TimerEvent: {}
+[16.664620] (-) TimerEvent: {}
+[16.696824] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[16.738102] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[16.763363] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[16.764920] (-) TimerEvent: {}
+[16.768205] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[16.813341] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[16.865441] (-) TimerEvent: {}
+[16.870557] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[16.972864] (-) TimerEvent: {}
+[17.075964] (-) TimerEvent: {}
+[17.177158] (-) TimerEvent: {}
+[17.278816] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.279374] (-) TimerEvent: {}
+[17.291336] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[17.371134] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[17.380012] (-) TimerEvent: {}
+[17.480505] (-) TimerEvent: {}
+[17.581051] (-) TimerEvent: {}
+[17.598252] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[17.605891] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[17.680912] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[17.681193] (-) TimerEvent: {}
+[17.692783] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[17.695569] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[17.700305] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[17.738190] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[17.781540] (-) TimerEvent: {}
+[17.872312] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[17.881883] (-) TimerEvent: {}
+[17.982507] (-) TimerEvent: {}
+[18.083377] (-) TimerEvent: {}
+[18.086676] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[18.124953] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[18.183817] (-) TimerEvent: {}
+[18.194047] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[18.284337] (-) TimerEvent: {}
+[18.327770] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[18.344939] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[18.386439] (-) TimerEvent: {}
+[18.405189] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.487205] (-) TimerEvent: {}
+[18.588624] (-) TimerEvent: {}
+[18.689961] (-) TimerEvent: {}
+[18.790546] (-) TimerEvent: {}
+[18.793795] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[18.811312] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[18.891023] (-) TimerEvent: {}
+[18.905998] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[18.989548] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[18.991234] (-) TimerEvent: {}
+[19.055600] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.091514] (-) TimerEvent: {}
+[19.127995] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[19.182889] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[19.191857] (-) TimerEvent: {}
+[19.293613] (-) TimerEvent: {}
+[19.394458] (-) TimerEvent: {}
+[19.495389] (-) TimerEvent: {}
+[19.567135] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[19.596123] (-) TimerEvent: {}
+[19.601648] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[19.632681] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.696877] (-) TimerEvent: {}
+[19.798031] (-) TimerEvent: {}
+[19.902411] (-) TimerEvent: {}
+[20.003323] (-) TimerEvent: {}
+[20.104220] (-) TimerEvent: {}
+[20.208333] (-) TimerEvent: {}
+[20.309330] (-) TimerEvent: {}
+[20.310424] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[20.362708] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[20.396465] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.410010] (-) TimerEvent: {}
+[20.510616] (-) TimerEvent: {}
+[20.611334] (-) TimerEvent: {}
+[20.712060] (-) TimerEvent: {}
+[20.812874] (-) TimerEvent: {}
+[20.914276] (-) TimerEvent: {}
+[21.015345] (-) TimerEvent: {}
+[21.116528] (-) TimerEvent: {}
+[21.218040] (-) TimerEvent: {}
+[21.319332] (-) TimerEvent: {}
+[21.421134] (-) TimerEvent: {}
+[21.522248] (-) TimerEvent: {}
+[21.623484] (-) TimerEvent: {}
+[21.724284] (-) TimerEvent: {}
+[21.825492] (-) TimerEvent: {}
+[21.926554] (-) TimerEvent: {}
+[22.037084] (-) TimerEvent: {}
+[22.138951] (-) TimerEvent: {}
+[22.240309] (-) TimerEvent: {}
+[22.341016] (-) TimerEvent: {}
+[22.441741] (-) TimerEvent: {}
+[22.542337] (-) TimerEvent: {}
+[22.644645] (-) TimerEvent: {}
+[22.745810] (-) TimerEvent: {}
+[22.847460] (-) TimerEvent: {}
+[22.948684] (-) TimerEvent: {}
+[23.049879] (-) TimerEvent: {}
+[23.150322] (-) TimerEvent: {}
+[23.250961] (-) TimerEvent: {}
+[23.351630] (-) TimerEvent: {}
+[23.452244] (-) TimerEvent: {}
+[23.552864] (-) TimerEvent: {}
+[23.653663] (-) TimerEvent: {}
+[23.754430] (-) TimerEvent: {}
+[23.855095] (-) TimerEvent: {}
+[23.955958] (-) TimerEvent: {}
+[24.057121] (-) TimerEvent: {}
+[24.158426] (-) TimerEvent: {}
+[24.259620] (-) TimerEvent: {}
+[24.360079] (-) TimerEvent: {}
+[24.460647] (-) TimerEvent: {}
+[24.561181] (-) TimerEvent: {}
+[24.661791] (-) TimerEvent: {}
+[24.765689] (-) TimerEvent: {}
+[24.866633] (-) TimerEvent: {}
+[24.967371] (-) TimerEvent: {}
+[25.068203] (-) TimerEvent: {}
+[25.169414] (-) TimerEvent: {}
+[25.270195] (-) TimerEvent: {}
+[25.370824] (-) TimerEvent: {}
+[25.471945] (-) TimerEvent: {}
+[25.572599] (-) TimerEvent: {}
+[25.673486] (-) TimerEvent: {}
+[25.774331] (-) TimerEvent: {}
+[25.875268] (-) TimerEvent: {}
+[25.976402] (-) TimerEvent: {}
+[26.041043] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[26.066319] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[26.077119] (-) TimerEvent: {}
+[26.178245] (-) TimerEvent: {}
+[26.279416] (-) TimerEvent: {}
+[26.379998] (-) TimerEvent: {}
+[26.480508] (-) TimerEvent: {}
+[26.581053] (-) TimerEvent: {}
+[26.619333] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[26.681351] (-) TimerEvent: {}
+[26.788921] (-) TimerEvent: {}
+[26.892063] (-) TimerEvent: {}
+[26.909378] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[26.992372] (-) TimerEvent: {}
+[27.093243] (-) TimerEvent: {}
+[27.194073] (-) TimerEvent: {}
+[27.219673] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[27.294618] (-) TimerEvent: {}
+[27.395495] (-) TimerEvent: {}
+[27.488960] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[27.496200] (-) TimerEvent: {}
+[27.597079] (-) TimerEvent: {}
+[27.698577] (-) TimerEvent: {}
+[27.800044] (-) TimerEvent: {}
+[27.868591] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[27.900538] (-) TimerEvent: {}
+[28.001191] (-) TimerEvent: {}
+[28.102482] (-) TimerEvent: {}
+[28.193663] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[28.202926] (-) TimerEvent: {}
+[28.303674] (-) TimerEvent: {}
+[28.404639] (-) TimerEvent: {}
+[28.506243] (-) TimerEvent: {}
+[28.607814] (-) TimerEvent: {}
+[28.669024] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[28.708192] (-) TimerEvent: {}
+[28.809395] (-) TimerEvent: {}
+[28.910001] (-) TimerEvent: {}
+[28.917505] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[29.010238] (-) TimerEvent: {}
+[29.110816] (-) TimerEvent: {}
+[29.211397] (-) TimerEvent: {}
+[29.312021] (-) TimerEvent: {}
+[29.407396] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[29.412382] (-) TimerEvent: {}
+[29.439178] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.512811] (-) TimerEvent: {}
+[29.613749] (-) TimerEvent: {}
+[29.716845] (-) TimerEvent: {}
+[29.818749] (-) TimerEvent: {}
+[29.920003] (-) TimerEvent: {}
+[30.020970] (-) TimerEvent: {}
+[30.121503] (-) TimerEvent: {}
+[30.222183] (-) TimerEvent: {}
+[30.227341] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.322687] (-) TimerEvent: {}
+[30.423427] (-) TimerEvent: {}
+[30.524249] (-) TimerEvent: {}
+[30.626489] (-) TimerEvent: {}
+[30.728080] (-) TimerEvent: {}
+[30.829453] (-) TimerEvent: {}
+[30.930543] (-) TimerEvent: {}
+[31.031088] (-) TimerEvent: {}
+[31.131784] (-) TimerEvent: {}
+[31.150966] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.185695] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[31.232091] (-) TimerEvent: {}
+[31.332750] (-) TimerEvent: {}
+[31.433462] (-) TimerEvent: {}
+[31.535062] (-) TimerEvent: {}
+[31.636009] (-) TimerEvent: {}
+[31.687257] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[31.734197] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.747814] (-) TimerEvent: {}
+[31.850044] (-) TimerEvent: {}
+[31.951722] (-) TimerEvent: {}
+[32.055055] (-) TimerEvent: {}
+[32.134335] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[32.157390] (-) TimerEvent: {}
+[32.259814] (-) TimerEvent: {}
+[32.360544] (-) TimerEvent: {}
+[32.459919] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[32.460580] (-) TimerEvent: {}
+[32.561274] (-) TimerEvent: {}
+[32.603629] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[32.662222] (-) TimerEvent: {}
+[32.762986] (-) TimerEvent: {}
+[32.863790] (-) TimerEvent: {}
+[32.964660] (-) TimerEvent: {}
+[33.068330] (-) TimerEvent: {}
+[33.169643] (-) TimerEvent: {}
+[33.270254] (-) TimerEvent: {}
+[33.371122] (-) TimerEvent: {}
+[33.471745] (-) TimerEvent: {}
+[33.572455] (-) TimerEvent: {}
+[33.673143] (-) TimerEvent: {}
+[33.773956] (-) TimerEvent: {}
+[33.874867] (-) TimerEvent: {}
+[33.975830] (-) TimerEvent: {}
+[34.076974] (-) TimerEvent: {}
+[34.178224] (-) TimerEvent: {}
+[34.279475] (-) TimerEvent: {}
+[34.387578] (-) TimerEvent: {}
+[34.488884] (-) TimerEvent: {}
+[34.590056] (-) TimerEvent: {}
+[34.690647] (-) TimerEvent: {}
+[34.791284] (-) TimerEvent: {}
+[34.891929] (-) TimerEvent: {}
+[34.946192] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[34.992269] (-) TimerEvent: {}
+[35.093036] (-) TimerEvent: {}
+[35.193865] (-) TimerEvent: {}
+[35.294721] (-) TimerEvent: {}
+[35.395828] (-) TimerEvent: {}
+[35.496835] (-) TimerEvent: {}
+[35.597958] (-) TimerEvent: {}
+[35.699039] (-) TimerEvent: {}
+[35.711989] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[35.799961] (-) TimerEvent: {}
+[35.900479] (-) TimerEvent: {}
+[36.001050] (-) TimerEvent: {}
+[36.101666] (-) TimerEvent: {}
+[36.202381] (-) TimerEvent: {}
+[36.303144] (-) TimerEvent: {}
+[36.403967] (-) TimerEvent: {}
+[36.504856] (-) TimerEvent: {}
+[36.605753] (-) TimerEvent: {}
+[36.706732] (-) TimerEvent: {}
+[36.807800] (-) TimerEvent: {}
+[36.909016] (-) TimerEvent: {}
+[37.009641] (-) TimerEvent: {}
+[37.110106] (-) TimerEvent: {}
+[37.210645] (-) TimerEvent: {}
+[37.311279] (-) TimerEvent: {}
+[37.411890] (-) TimerEvent: {}
+[37.512529] (-) TimerEvent: {}
+[37.613248] (-) TimerEvent: {}
+[37.713961] (-) TimerEvent: {}
+[37.814805] (-) TimerEvent: {}
+[37.915690] (-) TimerEvent: {}
+[38.016701] (-) TimerEvent: {}
+[38.117885] (-) TimerEvent: {}
+[38.219050] (-) TimerEvent: {}
+[38.320154] (-) TimerEvent: {}
+[38.420663] (-) TimerEvent: {}
+[38.521294] (-) TimerEvent: {}
+[38.621871] (-) TimerEvent: {}
+[38.722506] (-) TimerEvent: {}
+[38.823178] (-) TimerEvent: {}
+[38.924056] (-) TimerEvent: {}
+[39.024871] (-) TimerEvent: {}
+[39.125984] (-) TimerEvent: {}
+[39.227344] (-) TimerEvent: {}
+[39.328461] (-) TimerEvent: {}
+[39.429671] (-) TimerEvent: {}
+[39.530289] (-) TimerEvent: {}
+[39.630884] (-) TimerEvent: {}
+[39.731515] (-) TimerEvent: {}
+[39.832250] (-) TimerEvent: {}
+[39.933018] (-) TimerEvent: {}
+[40.033792] (-) TimerEvent: {}
+[40.134588] (-) TimerEvent: {}
+[40.235642] (-) TimerEvent: {}
+[40.336625] (-) TimerEvent: {}
+[40.349477] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[40.437361] (-) TimerEvent: {}
+[40.538576] (-) TimerEvent: {}
+[40.639822] (-) TimerEvent: {}
+[40.641056] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[40.740042] (-) TimerEvent: {}
+[40.840795] (-) TimerEvent: {}
+[40.941623] (-) TimerEvent: {}
+[41.042319] (-) TimerEvent: {}
+[41.143006] (-) TimerEvent: {}
+[41.243778] (-) TimerEvent: {}
+[41.281380] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target mimic\n'}
+[41.344282] (-) TimerEvent: {}
+[41.445175] (-) TimerEvent: {}
+[41.546007] (-) TimerEvent: {}
+[41.554999] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[41.646681] (-) TimerEvent: {}
+[41.747700] (-) TimerEvent: {}
+[41.848921] (-) TimerEvent: {}
+[41.950045] (-) TimerEvent: {}
+[42.050623] (-) TimerEvent: {}
+[42.151209] (-) TimerEvent: {}
+[42.251848] (-) TimerEvent: {}
+[42.352465] (-) TimerEvent: {}
+[42.453174] (-) TimerEvent: {}
+[42.554063] (-) TimerEvent: {}
+[42.654976] (-) TimerEvent: {}
+[42.756942] (-) TimerEvent: {}
+[42.858883] (-) TimerEvent: {}
+[42.967648] (-) TimerEvent: {}
+[43.068845] (-) TimerEvent: {}
+[43.173184] (-) TimerEvent: {}
+[43.279072] (-) TimerEvent: {}
+[43.380037] (-) TimerEvent: {}
+[43.483085] (-) TimerEvent: {}
+[43.591917] (-) TimerEvent: {}
+[43.692834] (-) TimerEvent: {}
+[43.794486] (-) TimerEvent: {}
+[43.903263] (-) TimerEvent: {}
+[44.009145] (-) TimerEvent: {}
+[44.110003] (-) TimerEvent: {}
+[44.210470] (-) TimerEvent: {}
+[44.311072] (-) TimerEvent: {}
+[44.411591] (-) TimerEvent: {}
+[44.512162] (-) TimerEvent: {}
+[44.612883] (-) TimerEvent: {}
+[44.713708] (-) TimerEvent: {}
+[44.814549] (-) TimerEvent: {}
+[44.915477] (-) TimerEvent: {}
+[44.992758] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[45.016096] (-) TimerEvent: {}
+[45.117039] (-) TimerEvent: {}
+[45.218143] (-) TimerEvent: {}
+[45.319519] (-) TimerEvent: {}
+[45.428340] (-) TimerEvent: {}
+[45.529782] (-) TimerEvent: {}
+[45.630747] (-) TimerEvent: {}
+[45.731495] (-) TimerEvent: {}
+[45.832201] (-) TimerEvent: {}
+[45.933006] (-) TimerEvent: {}
+[46.034047] (-) TimerEvent: {}
+[46.134902] (-) TimerEvent: {}
+[46.235875] (-) TimerEvent: {}
+[46.337126] (-) TimerEvent: {}
+[46.438567] (-) TimerEvent: {}
+[46.539872] (-) TimerEvent: {}
+[46.640670] (-) TimerEvent: {}
+[46.741253] (-) TimerEvent: {}
+[46.841917] (-) TimerEvent: {}
+[46.942678] (-) TimerEvent: {}
+[47.043522] (-) TimerEvent: {}
+[47.144438] (-) TimerEvent: {}
+[47.245517] (-) TimerEvent: {}
+[47.346641] (-) TimerEvent: {}
+[47.447684] (-) TimerEvent: {}
+[47.548728] (-) TimerEvent: {}
+[47.649967] (-) TimerEvent: {}
+[47.750393] (-) TimerEvent: {}
+[47.850932] (-) TimerEvent: {}
+[47.954833] (-) TimerEvent: {}
+[48.063708] (-) TimerEvent: {}
+[48.164640] (-) TimerEvent: {}
+[48.265690] (-) TimerEvent: {}
+[48.366774] (-) TimerEvent: {}
+[48.454308] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[48.467492] (-) TimerEvent: {}
+[48.470569] (turtlesim) CommandEnded: {'returncode': 0}
+[48.568295] (-) TimerEvent: {}
+[48.669487] (-) TimerEvent: {}
+[48.695453] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[48.728594] (turtlesim) Command: {'cmd': ['/home/tainteli/.local/bin/cmake', '--install', '/home/tainteli/meu_workspace_agora_vai/build/turtlesim'], 'cwd': '/home/tainteli/meu_workspace_agora_vai/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tainteli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tainteli/meu_workspace/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tainteli'), ('OLDPWD', '/home/tainteli/meu_workspace_agora_vai/src'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tainteli/meu_workspace/install:/home/tainteli/meu_workspace/my_package/install'), ('LOGNAME', 'tainteli'), ('NAME', 'Notebook-26'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/tainteli/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Inteli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Inteli/AppData/Local/Microsoft/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/WebStorm 2022.1/bin:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/AppData/Roaming/npm:/mnt/c/Users/Inteli/Downloads/sqlite/sqlite/sqlite3.exe:/snap/bin'), ('WT_SESSION', '2278beeb-f3d6-4454-a849-c88f5d04a944'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/home/tainteli/meu_workspace/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tainteli/meu_workspace_agora_vai/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tainteli/meu_workspace/my_package/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/my_package/lib/python3.10/site-packages:/home/tainteli/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tainteli/meu_workspace/install/turtlesim:/home/tainteli/meu_workspace/my_package/install/my_package:/home/tainteli/meu_workspace/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[48.763004] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.766979] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[48.767362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.768388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.768632] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[48.768959] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.769491] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[48.769586] (-) TimerEvent: {}
+[48.769809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[48.770021] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[48.770160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[48.770540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[48.770689] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[48.770835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[48.771123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[48.771223] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[48.771422] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[48.771697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.771849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[48.772118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.772435] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[48.772524] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[48.772663] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[48.772798] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[48.772966] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.773268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[48.773370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[48.773547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.773656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[48.773867] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[48.774069] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[48.774153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[48.774231] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[48.774561] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[48.774681] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[48.774841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[48.774991] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[48.775139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[48.775265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[48.775424] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[48.775589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[48.775872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[48.776080] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[48.776151] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[48.776203] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[48.776272] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[48.776322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[48.776462] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[48.776642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[48.776839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[48.776911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[48.776967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[48.777028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[48.777103] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[48.777306] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[48.777595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.777739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.777920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[48.778055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.778218] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[48.778509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[48.778778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.778860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.779011] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[48.779191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.779320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.779477] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[48.779845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[48.779950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[48.780127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[48.780289] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[48.780448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[48.780679] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[48.780823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.781217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.781405] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[48.781569] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[48.781737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.781918] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[48.782083] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[48.782245] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[48.782431] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[48.782594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[48.782724] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[48.782876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.782998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.783284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[48.783433] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[48.783630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[48.783792] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[48.783946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.784102] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[48.784247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[48.784396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.784573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[48.784740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[48.784857] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[48.785269] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[48.785446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[48.785511] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[48.785654] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[48.785773] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[48.785836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[48.785887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[48.786079] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[48.786135] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[48.786403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[48.786456] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[48.786624] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[48.786776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[48.786956] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[48.787223] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[48.787292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.787453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.787636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.787810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.787866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.788021] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[48.788089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[48.788229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.788520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.788762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.788921] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[48.789049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.789215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.789422] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.789750] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.789927] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.790095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.790255] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.790318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[48.790477] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[48.790531] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[48.790721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.790970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.791133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.791328] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[48.791511] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[48.791701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[48.791847] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[48.791900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[48.792095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.792384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.792454] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[48.792628] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[48.792993] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.793230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.793296] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[48.793459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[48.793518] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[48.793718] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[48.793858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[48.793931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[48.793985] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[48.794153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[48.794299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[48.794384] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[48.794532] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[48.794644] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[48.794788] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[48.794880] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[48.795043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim\n'}
+[48.795208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[48.795267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[48.795446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.795717] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[48.795782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[48.795834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.795967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[48.796209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[48.796267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[48.796427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.796482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[48.796640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[48.796796] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.796980] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.797089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.797263] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[48.797333] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[48.797479] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[48.797581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[48.797739] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.797877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.798086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[48.798247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[48.798406] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[48.798560] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[48.798771] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[48.798897] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[48.799061] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[48.799224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[48.799391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[48.799539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[48.799698] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[48.799856] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[48.800031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[48.800322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[48.800678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[48.800821] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[48.800873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[48.800924] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[48.800982] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[48.801042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[48.801093] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[48.801142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.801206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.801370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[48.801555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[48.801819] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[48.801983] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[48.802181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[48.802356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[48.802572] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[48.802725] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[48.802873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[48.802987] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[48.803166] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[48.803468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[48.803541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[48.803593] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[48.803643] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[48.803692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[48.803821] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[48.803873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[48.803929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[48.804039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.854925] (turtlesim) StdoutLine: {'line': b"Listing '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[48.855135] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[48.855224] (turtlesim) StdoutLine: {'line': b"Listing '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[48.855301] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[48.855396] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[48.855472] (turtlesim) StdoutLine: {'line': b"Listing '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[48.855554] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[48.855627] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[48.855702] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[48.855772] (turtlesim) StdoutLine: {'line': b"Listing '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[48.855830] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[48.855903] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[48.855958] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[48.856063] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[48.856119] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[48.856204] (turtlesim) StdoutLine: {'line': b"Compiling '/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[48.861369] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.861913] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.862081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.862425] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.862672] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.862988] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.863134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[48.863332] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[48.863578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[48.864974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[48.865143] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[48.865468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[48.865649] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[48.865894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[48.866005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[48.866310] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[48.866463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[48.866763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[48.867046] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[48.867145] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[48.867207] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[48.868285] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[48.868533] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[48.868903] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[48.869090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[48.869282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[48.869555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[48.869761] (-) TimerEvent: {}
+[48.870022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[48.870129] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[48.870204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[48.870267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[48.870454] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[48.870642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[48.870830] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[48.870906] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[48.876683] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[48.876920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[48.878083] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[48.878510] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/draw_square\n'}
+[48.882502] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[48.882743] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/mimic\n'}
+[48.885210] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/tainteli/meu_workspace_agora_vai/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[48.885354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images\n'}
+[48.885573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[48.885778] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[48.886055] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[48.886214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[48.886388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[48.886549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[48.886811] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[48.886873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[48.886923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[48.886971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/launch\n'}
+[48.887019] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[48.887197] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[48.887379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[48.887581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[48.887752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[48.888008] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[48.888103] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[48.888365] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[48.888485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[48.888743] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[48.888848] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[48.888898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.dsv\n'}
+[48.889043] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[48.889791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[48.890036] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[48.890245] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[48.890542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[48.890630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[48.890753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[48.890914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[48.891079] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[48.891253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[48.891459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[48.891632] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[48.891796] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[48.891988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[48.892125] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[48.892254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[48.892393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[48.892558] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[48.892734] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[48.892919] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[48.893103] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[48.893424] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[48.893594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[48.893836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[48.893957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[48.894013] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[48.894147] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[48.894354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/tainteli/meu_workspace_agora_vai/install/turtlesim/share/turtlesim/package.xml\n'}
+[48.901555] (turtlesim) CommandEnded: {'returncode': 0}
+[48.970076] (-) TimerEvent: {}
+[49.070709] (-) TimerEvent: {}
+[49.171243] (-) TimerEvent: {}
+[49.255305] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[49.256481] (-) EventReactorShutdown: {}

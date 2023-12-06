@@ -1,0 +1,36 @@
+[1.161s] Invoking command in '/home/tainteli/meu_workspace_agora_vai/src/ola_mundo': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build install --record /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log --single-version-externally-managed
+[1.441s] running egg_info
+[1.441s] creating ../../build/ola_mundo/ola_mundo.egg-info
+[1.442s] writing ../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[1.442s] writing dependency_links to ../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[1.443s] writing entry points to ../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[1.443s] writing requirements to ../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[1.443s] writing top-level names to ../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[1.443s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.445s] reading manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.447s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.448s] running build_py
+[1.449s] creating /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build
+[1.449s] creating /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib
+[1.451s] creating /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib/ola_mundo
+[1.452s] copying ola_mundo/__init__.py -> /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib/ola_mundo
+[1.452s] copying ola_mundo/ola.py -> /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib/ola_mundo
+[1.454s] running install
+[1.454s] running install_lib
+[1.456s] creating /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.456s] copying /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib/ola_mundo/__init__.py -> /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.461s] copying /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build/lib/ola_mundo/ola.py -> /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.461s] byte-compiling /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/__init__.py to __init__.cpython-310.pyc
+[1.461s] byte-compiling /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/ola.py to ola.cpython-310.pyc
+[1.461s] running install_data
+[1.461s] creating /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/share/ament_index
+[1.461s] creating /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/share/ament_index/resource_index
+[1.461s] creating /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/share/ament_index/resource_index/packages
+[1.462s] copying resource/ola_mundo -> /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/share/ament_index/resource_index/packages
+[1.462s] copying package.xml -> /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/share/ola_mundo
+[1.462s] running install_egg_info
+[1.462s] Copying ../../build/ola_mundo/ola_mundo.egg-info to /home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[1.462s] running install_scripts
+[1.500s] writing list of installed files to '/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log'
+[1.556s] Invoked command in '/home/tainteli/meu_workspace_agora_vai/src/ola_mundo' returned '0': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/build/ola_mundo/prefix_override:/home/tainteli/meu_workspace_agora_vai/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/build install --record /home/tainteli/meu_workspace_agora_vai/build/ola_mundo/install.log --single-version-externally-managed

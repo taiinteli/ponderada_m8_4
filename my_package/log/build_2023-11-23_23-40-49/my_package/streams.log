@@ -1,0 +1,40 @@
+[0.840s] Invoking command in '/home/tainteli/meu_workspace_agora_vai/my_package': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log --single-version-externally-managed
+[1.097s] running egg_info
+[1.097s] creating build/my_package/my_package.egg-info
+[1.097s] writing build/my_package/my_package.egg-info/PKG-INFO
+[1.098s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[1.098s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[1.098s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[1.098s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[1.099s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[1.100s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[1.101s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build
+[1.102s] creating /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib
+[1.102s] creating /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package
+[1.102s] copying my_package/chatbot.py -> /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package
+[1.102s] copying my_package/__init__.py -> /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package
+[1.103s] copying my_package/my_node.py -> /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package
+[1.103s] running install
+[1.103s] running install_lib
+[1.104s] creating /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[1.105s] copying /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package/chatbot.py -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[1.105s] copying /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package/__init__.py -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[1.105s] copying /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build/lib/my_package/my_node.py -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[1.106s] byte-compiling /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package/chatbot.py to chatbot.cpython-310.pyc
+[1.106s] byte-compiling /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[1.107s] byte-compiling /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[1.107s] running install_data
+[1.108s] creating /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/share/ament_index
+[1.108s] creating /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/share/ament_index/resource_index
+[1.109s] creating /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/share/ament_index/resource_index/packages
+[1.109s] copying resource/my_package -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/share/ament_index/resource_index/packages
+[1.109s] copying package.xml -> /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/share/my_package
+[1.109s] running install_egg_info
+[1.111s] Copying build/my_package/my_package.egg-info to /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.112s] running install_scripts
+[1.132s] Installing my_node script to /home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/my_package
+[1.133s] writing list of installed files to '/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log'
+[1.168s] Invoked command in '/home/tainteli/meu_workspace_agora_vai/my_package' returned '0': PYTHONPATH=/home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/prefix_override:/home/tainteli/meu_workspace_agora_vai/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/build install --record /home/tainteli/meu_workspace_agora_vai/my_package/build/my_package/install.log --single-version-externally-managed

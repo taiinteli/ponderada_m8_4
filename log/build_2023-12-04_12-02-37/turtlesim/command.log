@@ -1,0 +1,4 @@
+Invoking command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /home/tainteli/.local/bin/cmake --build /home/tainteli/meu_workspace_agora_vai/build/turtlesim -- -j8 -l8
+Invoked command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/tainteli/.local/bin/cmake --build /home/tainteli/meu_workspace_agora_vai/build/turtlesim -- -j8 -l8
+Invoking command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /home/tainteli/.local/bin/cmake --install /home/tainteli/meu_workspace_agora_vai/build/turtlesim
+Invoked command in '/home/tainteli/meu_workspace_agora_vai/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/tainteli/.local/bin/cmake --install /home/tainteli/meu_workspace_agora_vai/build/turtlesim

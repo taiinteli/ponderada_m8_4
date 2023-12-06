@@ -1,33 +1,16 @@
-# Documentação Chatbot
+# Documentação chatbot com LLM 
 
-### Link do vídeo de funcinamento: https://youtu.be/lRWYc__x8dM?feature=shared
+## Vídeo de funcionamento: https://youtu.be/e2fhFna7_2A?feature=shared 
 
-### Visão Geral
-O chatbot simples é um componente destinado a interpretar comandos de texto e executar ações associadas a esses comandos. Ele foi projetado para integração em sistemas baseados em ROS 2.
+O chatbot está utilizando a biblioteca Gradio para criar uma interface gráfica e interagir com o modelo de linguagem natural Ollama. 
 
-### Principais Funcionalidades
-Interpretação de Comandos: O chatbot analisa comandos de texto usando padrões predefinidos e associa esses comandos a intenções específicas.
+## Para instalar o modelo do chat digite: 
+`` ollama create security-expert -f Modelfile``
+## Para instalar as bibliotecas digite o comando: 
+``` pip install -r requirements.txt ```
+## Para executar o chatbot digite: 
+``` python3 chat.py ```
 
-Execução de Ações: Com base nas intenções identificadas, o chatbot executa ações correspondentes. No exemplo fornecido, a ação é mover o robô para um destino especificado. No exemplo do vídeo o destino foi a biblioteca. 
 
-### Instalação 
 
-1. Clone o repositório 
 
-```git clone https://github.com/taiinteli/ponderadas_m8.git```
-
-2. Navegue para o diretório do pacote:
-
-```cd ponderadas_m8```
-
-3. Construção do pacote: 
-
-```colcon build```
-
-4. Ativamento do ambiente 
-
-```source install/setup.bash```
-
-5. Executar o Chatbot: 
-
-``ros2 run my_package chatbot``
